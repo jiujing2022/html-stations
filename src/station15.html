@@ -14,6 +14,12 @@
           </ul>
       </div>
     </div>
+    <script type="text/javascript">
+      // ページ読み込み時にリストをリセットしてからgetDataを呼び出す
+      window.onload = function() {
+        resetList();  // リストをリセット
+        getData();    // データを取得して表示
+      }
+    </script>
   </body>
-  <script type="text/javascript" src="./scripts/station15-common.js"></script>
 </html>

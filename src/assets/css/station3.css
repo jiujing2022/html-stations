@@ -1,0 +1,25 @@
+.card {
+    background-color: #ffffff;
+    padding: 16px; /* Example padding, can be adjusted as needed */
+    border-radius: 8px; /* Optional for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional for shadow effect */
+}
+
+.card__img-top {
+    width: 288px;
+    height: 182px;
+    margin-bottom: 16px; /* Example margin, can be adjusted as needed */
+    object-fit: cover; /* Ensures the image fits nicely within the dimensions */
+}
+
+.card__title {
+    color: #282828;
+    font-size: 14px;
+    margin-bottom: 8px; /* Optional for spacing between title and description */
+}
+
+.card__description {
+    color: #282828;
+    font-size: 12px;
+    line-height: 1.5; /* Optional for better readability */
+}
